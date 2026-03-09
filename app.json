@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Robot Navigator",
+    "name": "robot-navigator",
     "slug": "robot-navigator",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,8 +10,13 @@
       "supportsTablet": true
     },
     "android": {},
+    "experiments": {
+      "baseUrl": "/robot-navigator"
+    },
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+      "output": "static"
     }
   }
 }
+
