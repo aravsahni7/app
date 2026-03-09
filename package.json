@@ -12,11 +12,14 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~6.1.2",
     "@react-navigation/native": "*",
     "@react-navigation/native-stack": "*",
     "expo": "latest",
     "expo-status-bar": "^3.0.9",
-    "firebase": "^12.9.0"
+    "firebase": "^12.9.0",
+    "react-dom": "19.1.0",
+    "react-native-web": "^0.21.0"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
