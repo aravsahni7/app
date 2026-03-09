@@ -4,8 +4,14 @@
     "slug": "robot-navigator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "platforms": ["ios", "android", "web"],
-    "assetBundlePatterns": ["**/*"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -16,7 +22,9 @@
     "web": {
       "bundler": "metro",
       "output": "static"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
-
