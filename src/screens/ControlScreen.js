@@ -14,7 +14,7 @@ export default function ControlScreen() {
   const [modalVisible, setModalVisible] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
 
-  const ROBOT_IP = "192.168.111.50";
+  const ROBOT_IP = "10.192.193.50";
 
   const sendCommand = async (command) => {
     try {
