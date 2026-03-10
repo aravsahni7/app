@@ -17,7 +17,7 @@
     },
     "android": {},
     "experiments": {
-      "baseUrl": "/robot-navigator"
+      "baseUrl": "/app"
     },
     "web": {
       "bundler": "metro",

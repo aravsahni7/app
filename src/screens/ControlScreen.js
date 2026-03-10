@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import {
-  View,
-  Text,
-  StyleSheet,
-  TouchableOpacity,
+  Alert,
   Modal,
+  StyleSheet,
+  Text,
   TextInput,
-  Alert
+  TouchableOpacity,
+  View
 } from "react-native";
 
 export default function ControlScreen() {
@@ -14,11 +14,11 @@ export default function ControlScreen() {
   const [modalVisible, setModalVisible] = useState(false);
   const [passwordInput, setPasswordInput] = useState("");
 
-  const ROBOT_IP = "192.168.1.50";
+  const ROBOT_IP = "198.168.111.50";
 
   const sendCommand = async (command) => {
     try {
-        await fetch(`http://${ROBOT_IP}/${command}?`);
+        await fetch(`http://${ROBOT_IP}/${command}`);
         console.log("Command sent:", command);
     } catch (err) {
         console.log("Robot connection error:", err);
